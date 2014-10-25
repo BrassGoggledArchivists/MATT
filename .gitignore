@@ -61,4 +61,6 @@ mods/OpenEye-0.5-1.7.2.jar
 reports/
 
 /src/main/java/tconstruct
+/src/main/java/mantle
 /src/main/resources/assets/tinker
+/src/main/resources/assets/mantle
