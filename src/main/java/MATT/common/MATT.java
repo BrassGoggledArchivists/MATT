@@ -20,17 +20,16 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
  * @author warlordjoens
  * 
  */
-@Mod(modid = "MATT", name = "Melt All the Things!", version = "1.0.0")
+@Mod(modid = "MATT", name = "Melt All the Things!", version = "1.0.0", dependencies = "required-after:TConstruct")
 public class MATT
 {
-
-	@Instance
+	@Instance("MATT")
 	public static MATT instance;
 
 	@Mod.EventHandler
 	public void preInit(final FMLPreInitializationEvent event)
 	{
-
+		VanillaHandler.addSmelting();
 	}
 
 	@EventHandler
