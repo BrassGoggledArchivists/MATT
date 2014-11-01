@@ -20,7 +20,7 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
  * @author warlordjoens
  * 
  */
-@Mod(modid = "MATT", name = "Melt All the Things!", version = "1.0.0", dependencies = "required-after:TConstruct")
+@Mod(modid = "MATT", name = "Melt All the Things!", version = "1.0.0", dependencies = "required-after:TConstruct;required-after:boilerplate")
 public class MATT
 {
 	@Instance("MATT")
